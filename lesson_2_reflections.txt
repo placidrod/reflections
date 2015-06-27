@@ -7,9 +7,48 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	Staging area only includes the changes that have been added for commit.
-	Working directory contains all files in the current directory and repository
+	Working directory contains all files in their current stage and repository
 	contains all the commits.
 
 	Staging area provides opportunity to choose which changes I want to commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	I can add commit after a change and if I forget what I added, I can check
+	exactly what I added with 'git diff --staged' to make sure I have one commit
+	per logical change. I can use 'git reset file_name' if I want to unstage the
+	changes.
+
+	I can also use 'git diff' to check difference between staging area and working
+	directory and I can change staging area or reset to make appropriate commits.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+	Branches are helpful when I need to create some functionality in the program
+	which are not directly related to the main goal of the program.
+
+	If I create a branch, checkout in that branch and add changes to my codes and 
+	then commit the changes, the changes are saved in that branch and does not
+	affect the master branch. This helps to keep my master branch, where I save
+	only the codes necessary for the actual purpose of the program, safe.
+
+How do the diagrams help you visualize the branch structure?
+
+	It shows the branches and the commits visually and it is easy to identify
+	commits which are unreachable from any branch.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+	Merging of commits saves all commits from a branch into another.
+
+	We represent them in the shown way to see which commits are accessible from
+	which branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's automatic merging saves a lot of time and effort when merging two branches.
+	When there are conflicts that Git cannot resolve, it offers opportunity to
+	manually resolve the code and merge. It would be tedious to always merge manually.
 
