@@ -23,4 +23,21 @@ What is the benefit of having a copy of the last known state of the remote store
 	So I can compare the local master and origin/master when I am offline and make
 	necessary changes/merges when I think appropriate.
 
-	
+How would you collaborate without using Git or GitHub? What would be easier, and what
+would be harder?
+
+	Without Git or Github, I would collaborate using emails, sending the codes and ask
+	for reviewing and merging the codes.
+	Easier: I already know how to attach files in email and send. So, no learning curve.
+	Harder: I would have to carefully separate my modifications from the original code
+	so that if it is not approved I can delete them and I would have to do it at every
+	instance.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+	I would use separate branch if I want to get my additions to be reviewed by
+	someone else and if accepted, merge with the master branch.
+	Making changes directly in master is easier to implement. Making changes in branch
+	is less risky since it provides opportunity to be reviewed and corrected by others
+	before adding to master.
