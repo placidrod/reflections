@@ -10,3 +10,17 @@ stay up-to-date with your remote repository?
 	There may be others who are working on the same branch and push on the remote which
 	I wouldn't want to add to my local repo.
 
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+	Fork: Save someone else's github repo to my github repo.
+	Clone: Save any github repo to local computer or copy a local repo to somewhere 
+	else locally.
+	Branch: Create a branch for adding separate functionality.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	So I can compare the local master and origin/master when I am offline and make
+	necessary changes/merges when I think appropriate.
+
+	
